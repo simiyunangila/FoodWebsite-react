@@ -1,0 +1,13 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #f8c9ee;
+   
+}
+.pp{
+    font-size: medium;
+    font-weight: 300;
+}
+.hh{
+    font-weight: 400;
+}

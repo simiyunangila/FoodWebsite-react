@@ -1,0 +1,24 @@
+.mages {
+    display: flex; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0; 
+  
+  }
+  
+  .mages img {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+  
+  .one {
+    flex: 2;
+    padding-right: 20px;
+  }
+  
+  
+  div:last-child {
+    flex: 1;
+    text-align: center;
+  }
+  

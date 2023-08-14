@@ -1,0 +1,77 @@
+/* HomeSection.css */
+
+.main {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    gap: 50px; 
+    margin-top: -10%;
+  }
+  
+  .non_text {
+    grid-column: 1; 
+  }
+  
+  .non_text h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+  } 
+  
+  .main_image {
+    grid-column: 2; 
+    text-align: right; 
+    margin-bottom: 40%;
+   
+  }
+  
+  .main_image img {
+    max-width: 100%;
+  
+  }
+  
+  p {
+    grid-column: span 2; 
+  
+    font-size: 28px;
+  }
+  .main_btn{  
+   
+        color: #c971b6; 
+        border-color: #c971b6; 
+        padding: 10px 20px; 
+        border-radius: 20px; 
+        cursor: pointer; 
+        font-size: 20px;
+        
+  }
+  .main_btn:hover {
+    color: #333; 
+  }
+  .main_bt{  
+    font-size: 20px;
+    color: #c971b6; 
+    border:none; 
+    padding: 10px 60px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    
+}
+.main_bt:hover {
+color: #333; 
+}
+.lower{
+    background-color: #f8c9ee;
+    display: flex;
+    gap: 250px;
+    margin:0 10%;
+    margin-top: -5%;
+
+   
+}
+.lower p{
+    font-size: medium;
+    font-weight: 300;
+}
+  
